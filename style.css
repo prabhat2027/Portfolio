@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* h1 - 85px
+H2 - 48px
+h3 - 24 px 
+h4 - 18 px 
+p - 16px */
+
+h1{
+    font-size: 85px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+
+.avatar{
+    size-adjust: 10px;
+}
