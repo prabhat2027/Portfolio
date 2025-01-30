@@ -210,8 +210,9 @@ display: flex;
 /* project section */
 
 .project_section {
-    background-color: var(--bg-secondary);
+    /* background-color: var(--bg-secondary); */
     padding: 110px 80px;
+
 
     h2 {
         margin-bottom: 50px;
@@ -288,4 +289,75 @@ display: flex;
             }
         }
     }
+}
+
+/* skill section */
+
+.skill_Section {
+    background-color: var(--bg-secondary);
+    padding: 110px, 80px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .skill {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 40px;
+    }
+    
+}
+
+/* contact section */
+
+.contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 100px;
+
+    .image_container {
+        img {
+            height: 80vh;
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        p {
+            max-width: 60%;
+        }
+
+        .linkedin_container {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            .linkedin {
+                img {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+            h4 {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.bar {
+    background-color: var(--light);
+    border-radius: 9999px;
 }
