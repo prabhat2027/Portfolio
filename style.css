@@ -22,9 +22,11 @@ h3{
 }
 h4{
     font-size: 18px;
+    font-weight: 400;
 }
 p{
     font-size: 16px;
+    line-height: 28px;
 }
 
 .avatar{
@@ -133,4 +135,24 @@ display: flex;
         }
     }
 
+}
+
+/* about section */
+
+.about_section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 100px;
+    .image_container {
+        img {
+            height: 80vh;
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
 }
