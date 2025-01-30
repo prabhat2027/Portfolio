@@ -156,3 +156,52 @@ display: flex;
         gap: 32px;
     }
 }
+
+/* experience section */
+
+.experience_section {
+    background-color: var(--bg-secondary);
+    padding: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 110px 80px;
+    gap: 40px;
+
+    h2 {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .experience_card {
+        padding: 40px;
+        border: 1px solid var(--light);
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .tag {
+            background-color: var(--light);
+            color: var(--bg-primary);
+            padding: 5px 20px;
+            border-radius: 9999px;
+            font-size: 13px;
+            line-height: 1px;
+        }
+        h3 {
+
+        }
+        h4 {
+
+        }
+        p {
+            max-width: 50%;
+        }
+    }
+}
