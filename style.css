@@ -37,6 +37,7 @@ p{
 html, body{
     background: var(--bg-primary);
     color: var(--light);
+    scroll-behavior: smooth;
 }
 
 button{
